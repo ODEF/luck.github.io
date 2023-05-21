@@ -1,0 +1,84 @@
+body{
+    font-size:  18px;
+    color: white
+}
+a{
+    
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: #004225;
+}
+
+
+/*  */
+/*  */
+body{
+    background-color: #AB9DFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+ul, ol, .answer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.answer{
+  width: 65%;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 13px;
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  font: 1em sans-serif;
+  color: blue;
+}
+
+.icon{
+    width: 39%;
+}
+.question{
+    font-weight: bold;
+    font-size: 24px;
+}
+.answer{
+    font-size: 18px;
+}
+
+.numeration{
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 0;
+    display: inline;
+    
+}
+
+figure{
+    margin-top: 0;
+    display: inline;
+}
+
+.mainPicture{
+    width: 70%;
+
+}
+
+.frst{
+    border-radius: 6%;
+    padding: 9px;
+    color: lightcoral;
+    font-size: 16px;
+   border: none;
+    background-color: #ff99c8;
+}
